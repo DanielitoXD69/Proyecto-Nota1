@@ -20,6 +20,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Acceder">
+
+        </activity>
+
+        <activity android:name=".SBC" >
+
+        </activity>
+
+        <activity android:name=".Cartas">
+
+        </activity>
     </application>
 
 </manifest>

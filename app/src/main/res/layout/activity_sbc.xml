@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40CF9B">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion SBC"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:text="Este modo de juego se llama 'Squad Buildings Chalenge', el cual consiste en crear plantillas con ciertos
+riquisitos para recibir recompensas. Las cuales te dan cartas de oro para poder armar tu equipo, hacer otros 'SBC', etc.   " />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:src="@drawable/sbc" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:src="@drawable/sbcincomplete"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

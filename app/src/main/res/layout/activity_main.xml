@@ -16,8 +16,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="379dp"
-        android:layout_height="416dp"
+        android:layout_width="378dp"
+        android:layout_height="461dp"
         android:layout_marginBottom="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,21 +25,41 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="FC 24"
+            android:textSize="35dp" />
+
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="219dp"
+            android:layout_height="246dp"
+            android:textColor="#000"
             android:text="El “FC 24” es un juego basado en el deporte futbol; creado por la empresa Electronic Arts.
-        Este es el primer año el cual la franquicia le cambia el nombre a su saga de videojuegos antes llamada “FIFA”; esto se debe a un quiebre
-        en la relación entre la Confederación la FIFA y Electronic Arts. Al no llegar a un acuerdo monetario estos se deciden seguir con sus proyectos de forma separada.
-        Contando un poco mas del juego, trae novedades al incorporar mejoras en la jugabilidad, cambios en los relatores del juego,
-        contiene mejoras en las animaciones de los jugadores, etc."
+
+
+                Este es el primer año el cual la franquicia le cambia el nombre a su saga de videojuegos antes llamada “FIFA”; esto se debe a un quiebre
+en la relación entre la Confederación la FIFA y Electronic Arts. Al no llegar a un acuerdo monetario estos se deciden seguir con sus proyectos de forma separada. Contando un poco mas del juego, trae novedades al incorporar mejoras en la jugabilidad, cambios en los relatores del juego,
+contiene mejoras en las animaciones de los jugadores, etc."
+            android:textSize="16dp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="367dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13sp"
+            android:hint="Nombre Usuario"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
 
         <Button
             android:layout_width="119dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:backgroundTint="#098"
             android:hint="Ingresar"
             android:minHeight="30dp"
